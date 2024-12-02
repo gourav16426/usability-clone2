@@ -1,0 +1,30 @@
+body{
+    background-color: brown;
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+@media (min-width:640px) {
+   body{
+    background-color: aqua;
+   }
+   h1{
+    color: red;
+   }
+}
+@media (min-width:768px){
+    body{
+        background-color: green;
+    }
+    h1{
+        color: white;
+    }
+}
+@media (min-width:1024px){
+    body{
+        background-color: blue;
+    }
+    h1{
+        color: white;
+    }
+}
